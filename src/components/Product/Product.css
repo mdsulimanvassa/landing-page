@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    background-image: url(../../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: left bottom;
+}
+.secound-half-width{
+    padding: 20px;
+    position: relative;
+}
+.secound-half-width h1{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'popins', sans-serif;
+}
+.secound-half-width p{
+    color: var(--darkGrayishBlue);
+    font-size: 25px;
+}
+.cart h3,h2{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    margin: 0;
+}
+.cart h3{
+    position: relative;
+    top: -5px;
+}
+.cart h2{
+    background: var(--brightRed);
+    border-radius: 20px;
+    padding: 0 10px;
+}

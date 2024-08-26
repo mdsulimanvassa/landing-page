@@ -1,0 +1,77 @@
+:root{
+    --brightRed: hsl(12, 88%, 59%);
+    --darkBlue: hsl(228, 39%, 23%);
+    --darkGrayishBlue: hsl(227, 12%, 61%);
+    --veryDarkBlue: hsl(233, 12%, 13%);
+    --veryPaleRed: hsl(13, 100%, 96%);
+    --varyLightGray: hsl(0, 0%, 98%);
+}
+
+section{
+    height: 600px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+@media only screen and (max-width: 500px){
+    section {
+        height: 1000px;
+        margin-bottom: 0;
+    }
+    .flex-area{
+        flex-direction: column;
+    }
+    .user-images{
+        width: 90%;
+    }
+    .product{
+        height: 1200px;
+        box-sizing: border-box;
+    }
+    .containt{
+        margin-top: 100px;
+    }
+    .three{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .secound-half-width{
+        width: 90%;
+    }
+    .cart{
+        width: 100%;
+    }
+    /* aboute page */
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 0;
+    }
+    .half-width{
+       min-width: 90%;
+    }
+    .half-width img{
+        max-width: 100%;
+    }
+    /* footer page */
+    .orenge-area{
+        flex-direction: column;
+        text-align: center;
+    }
+    .durk-area{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .nav-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .searce-area input{
+        text-align: center;
+        padding: 10px 20px;
+        justify-content: center;
+    }
+
+}

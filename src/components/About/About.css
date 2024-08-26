@@ -1,0 +1,58 @@
+#about{
+    padding: 20px;
+    background-image: url(../../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    background-position: right top;
+}
+.half-width{
+    position: relative;
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+.half-width h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'popins', sans-serif;
+}
+.half-width p{
+    color: var(--darkGrayishBlue);
+    font-size: 25px;
+}
+.half-width button{
+    background-color: var(--brightRed);
+    border: none;
+    padding: 15px 10px;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: var(--varyLightGray);
+    animation-name: rander;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.half-width img{
+    max-width: 100%;
+}
+@keyframes rander {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    50%{
+        
+        top: 20px;
+    }
+    75%{
+        left: 20px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}

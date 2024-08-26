@@ -1,17 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from 'react';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit done <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div className="all-count">
+      <Home></Home>
     </div>
-  );
-}
-
+    )}
 export default App;
